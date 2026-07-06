@@ -81,8 +81,8 @@ def enviar_correo_mensual(df_datos, nombre_archivo):
         
         st.success(f"📬 ¡Reporte enviado con éxito a {destinatario} con su archivo adjunto!")
     except Exception as e:
-        st.info("💡 **Simulación de Correo Exitosa**")
-        st.caption(f"Si la app estuviera en producción, se habría enviado el archivo `{nombre_archivo}.csv` con {len(df_datos)} registros hacia {destinatario}.")
+        # Esto te mostrará en la app web el error exacto que arroja Gmail
+        st.error(f"❌ Error al enviar el correo: {e}")    
 
 # --- INTERFAZ GRÁFICA ---
 st.title("🩺 Mi Control de Insulina Pro")

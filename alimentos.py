@@ -2,21 +2,21 @@
 # Ajustado a estándar: 1 taza = 250 ml | 1/2 taza = 125 ml (Factor x1.25 en tazas)
 ALIMENTOS_POR_GRUPO = {
     "🍉 Frutas": {
-        "Plátano": (15.0, "1/2 unidad"),
-        "Naranja": (15.0, "1 unidad regular"),
-        "Manzana": (15.0, "1 unidad pequeña"),
+        "Plátano": (57.1, "1 taza"),
+        "Naranja": (29.38, "1 taza"),
+        "Manzana": (34.52, "1 taza"),
         "Frutillas": (18.75, "1 taza"),
         "Mora": (18.75, "1/2 taza"),
         "Sandia": (18.75, "1 taza"),
         "Melón": (18.75, "1 taza"),
-        "Durazno": (15.0, "1 unidad pequeña"),
+        "Durazno": (23.85, "1 taza"),
         "Cerezas": (15.0, "15 unidades"),
         "Chirimoya": (11.0, "1/4 de unidad"),
-        "Pera": (15.0, "1 unidad pequeña"),
+        "Pera": (38.65, "1 taza"),
         "Piña": (18.75, "3/4 de taza"),
-        "Kiwi": (15.0, "2 unidades pequeñas"),
+        "Kiwi": (36.65, "1 taza"),
         "Frambuesa": (18.75, "1 taza"),
-        "Ciruelas": (15.0, "3 unidades"),
+        "Ciruelas": (28.55, "1 taza"),
         "Uvas": (15.0, "10 unidades"),
         "Pasas": (16.0, "20 unidades"),
         "Huesillo": (15.0, "2 unidades")
@@ -39,7 +39,7 @@ ALIMENTOS_POR_GRUPO = {
         "Camote": (37.5, "1/2 taza"),
         "Choclo": (50.0, "1 taza"),
         "Habas": (37.5, "1 taza"),
-        "Papa": (30.0, "1 unidad regular"),
+        "Papa": (43.68, "1 taza"),
         "Porotos granados": (31.25, "3/4 taza"),
         "Avena": (37.5, "1/2 taza"),
         "Avena Integral": (17.2, "2 cucharadas"),
@@ -82,7 +82,7 @@ ALIMENTOS_POR_GRUPO = {
         "Quesillo Colun": (1.4, "1 rebanada 3 cm"),
         "Huevos": (0.6, "1 unidad"),
     },
-     "Fiambres": {
+     "🥪 Fiambres": {
         "Pechuga de pollo": (0.1, "1 rebanada"),
         "Pechuga de pavo": (0.2, "1 rebanada")
     }
